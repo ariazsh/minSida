@@ -1,0 +1,7 @@
+först skapar jag min html sida och ger id till element jag ska använda och sedan länkar jag dem till Javascript.
+efter det skapar jag variabel som tar element id.
+sen fokusrade jag på inlognings knappen och om den inte funkar så ska det visas try again och om det funkar så ska det gå vidare till en ny sida
+jag använde mig av localStorage() och visibily methods för att kunna växla till olika sidor beroende på vad användaren skriver in eller klickar på.
+knappen log in och log out hanteras av addEventListener, genom att klicka på knappen så ska anropas en funktion.
+om använderen skriver rätt pass och user och trycker på knappen logga in så sparas dem till localStorage()
+om användaren klickar på log out så localStorage() blir null eller tom genom metoden localStorage.clear().
